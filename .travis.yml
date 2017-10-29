@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy: morning-journey-56938
+  provider: heroku
+  api_key:
+    secure: P7Mjf4k/EWSNh2q2T7PSKPrFhkja9EXeN1QOnNHWX6KyFmRxlJgUJFW2JvyJY/Yftg3vAF/HWF8mibVkvhlaloh2fYzA9KzMDtX5Lq4VO5lwssYh4AOLXNdta/JtRFVRJqk9rbWSXFCJlkXXsBJY8fuLUslqpwaNab5Gc6RFKRYcaQTLB+zcqDvqMh1X3oubAPSS/Iwh74290FWmu7fC3S4+3ssKvgD8Mz1cwM1pY7sAQETNfqQsaxFg+oOIvl8tWmHYSUR/Jb6L7JicY1gyw3WuiYlDBiIZ1pRQjAM02xcEiSY0s4/w9y/lpZSLY3R0zl1qusHnEAq7zTW+yDP+fWbAFP1jKyn8kKMMy7+pQsE+1zzJ3D8B9xhXxzq9r6c5fMOQxV4uFDCJLgkWX9Dire0sJNb3RO7mFBVUMpIQG0J9kMnjCEtaQeCaP+7YeuvFwiALBvZ3aeFETJs9KIjHQvOVAfeNbVcop51ybAbEUePobkD0U8x6uOl8JHlLXYjfK8zrnQjUhiPhWAqzbS6jMCKx+gFrwD1FWx7PSgJNzfvTy6jYJrWXWul+I244KrdVhd3c2aNL0PZyETi2uKNZa5ypIIKDaEYwM292VtIuwEA0swuik8YGx88lvV9FAdmOAVBev7o+3U+eC6hP/703n2zTtct+QoJdRTBngcRnDUw=
+  app: blog-app-mongoose-challenge-solution
+  on:
+    repo: jrvscm/blog-app-mongoose-challenge-solution
+    branch: feature/tests
